@@ -1,0 +1,631 @@
+* {
+    box-sizing: border-box;
+}
+
+body{
+    background-color: linen;
+    font-family: "Noto Serif", serif;
+}
+
+.navbar {
+    background-color: black;
+    overflow: hidden;
+}
+
+.navbar a {
+    float: right;
+    font-size: 18px;
+    text-decoration: none;
+    padding: 20px 22px;
+    color: white;
+    text-align: center;
+}
+
+.dropdown {
+    float: right;
+    overflow: hidden;
+}
+
+.dropdown .dropbutton {
+    font-size: 18px;
+    padding: 20px 22px;
+    color: white;
+    background-color: inherit;
+    font-family: inherit;
+    margin: 0;
+    border: none;
+    outline: none;
+}
+
+.navbar a:hover, .dropdown:hover .dropbutton {
+    background-color: white;
+    color: black;
+}
+
+.services {
+    display: none;
+    position: absolute;
+    background-color: #000000;
+    color: white;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.7);
+    z-index: 1;
+}
+
+.services a {
+    float: none;
+    color: white;
+    padding: 20px 22px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+}
+
+.services a:hover {
+    background-color: rgba(255, 255, 255, 0.7);
+    color: black;
+}
+
+.dropdown:hover .services {
+    display: block;
+}
+
+.bebas-neue-regular {
+    font-family: "Bebas Neue", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}  
+
+main {
+    padding-left: 1em;
+    padding-right: 1em;
+    padding-bottom: 2em;
+}
+main h2{
+    font-size: 40px;
+    text-align: center; 
+    font-family: "Bebas Neue", sans-serif;
+    font-weight: 400;
+}
+main h4{
+    font-size: 15px;
+}
+h3 {
+    font-weight: bold;
+    padding: .5em 1.3rem;
+    margin-left: 4.5em;
+}
+
+footer {
+    font-size: 0.7em;
+    font-style: italic;
+    text-align: center;
+    border-top: 2px solid rgb(92, 64, 51);
+    background-color: rgb(150, 75, 0,0.2);
+}
+footer p{
+    font-size: medium;
+}
+footer img{
+    border-radius: 30px;
+}
+.fullheader h1 {
+    background-color: rgba(245, 245, 245, 0);
+    padding: 100px 100px;
+    font-size: 75px;
+    opacity: 0.8;
+    font-family: "Bebas Neue", sans-serif;
+    font-weight: 400;
+}
+
+.fullheader {
+    position: relative;
+    width: 100%;
+    height: 450px;
+    background-image: url('images/header.jpeg');
+    background-size: cover;
+    background-position: center;
+    color: #000000;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    text-align: left;
+    opacity: 0.7;
+    padding-left: 10%;
+}
+
+.logo img {
+    height: 60px;
+    width: auto;
+    float: left;
+}
+html {
+    scroll-behavior: smooth;
+}
+
+.Align{
+    float: left;
+}
+.Text{
+    font-size: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: rgb(150, 75, 0,0.2);
+    border-top: 2px solid rgb(92, 64, 51);
+    border-bottom:2px solid rgb(92, 64, 51);
+}
+.column{
+    display: inline-block;
+    margin-left: 60px;
+    text-align:left;
+}
+.column img{
+    border-radius: 30px;
+}
+
+.columntext{
+    font-size:15px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    width:100%
+}
+
+.backgroundC{
+    background-color:rgb(150, 75, 0,0.2) ;
+    border-top: 2px solid rgb(92, 64, 51);
+    border-bottom:2px solid rgb(92, 64, 51);
+}
+.column2{
+    display:inline-block ;
+    margin-left: 100px;
+}
+.column3{
+    display: inline-block;
+    margin-left: 400px;
+    margin-right: 400px;
+}
+.column4{
+    display: inline-block;
+    margin-left: 100px;
+}
+
+/* About us */
+
+.aboutus img {
+    width:100%;
+    height: 650px;
+}
+
+main h1{
+    text-align: center;
+}
+
+main p, main ul{
+    text-align: left;
+    display: block;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 20px;
+}
+
+#background1{
+    background-color: antiquewhite;
+}
+
+#background1 video{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+#background2{
+    background-color: rgb(180, 94, 94);
+}
+
+#background2 p{
+    font-size: 60px;
+    border-bottom: 5px solid black;
+    display: inline;
+}
+
+#background3{
+    background-color: #ceb6a3;
+}
+#background3 img{
+    display: block;
+    width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+}
+#background4 img{
+    display: block;
+    width: 40%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#background4 ol{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+    text-decoration: underline;
+    font-size: 25px;
+}
+
+#background4{
+    background-color: beige;
+}
+
+#background4 p{
+    text-align: center;
+    text-decoration: underline dotted;
+}
+#background5 img{
+    display: block;
+    width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.achievements {
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.button{
+    display: inline-block;
+    border-radius: 4px;
+    background-color: #f4511e;
+    border: none;
+    color: #FFFFFF;
+    text-align: center;
+    font-size: 18px; /* Reduced font size */
+    padding: 10px; /* Smaller padding */
+    width: 200px; /* Narrower button */
+    transition: all 0.5s;
+    cursor: pointer;
+    margin: 5px;
+}
+  
+.button span {
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
+}
+  
+.button span:after {
+    content: '\00bb';
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    right: -20px;
+    transition: 0.5s;
+}
+  
+.button:hover span {
+    padding-right: 25px;
+}
+  
+.button:hover span:after {
+    opacity: 1;
+    right: 0;
+}
+
+.container{
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+}
+
+.container2{
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+}
+
+#background6 img{
+    display: block;
+    height: 20%;
+    width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+/* Faq css */
+
+.containerr h1{
+    color: #653700;
+    text-align: center;
+    font-size: 55px;
+    font-family: "Bebas Neue", sans-serif;
+    font-weight: 400;
+    
+}
+
+.containerr, details, summary{
+    width: 85% ;
+    margin-left: 105px;
+}
+
+details{
+    background-color: #653700 ;
+    color: #fff;
+    font-size: 1.5rem;
+    border-bottom: 2px solid white;
+}
+
+summary {
+    padding: .5em 1.3rem;
+    list-style: none;
+    display: flex;
+    justify-content: space-between;  
+    transition: height 1s ease;
+}
+
+summary::-webkit-details-marker {
+    display: none;
+}
+
+summary:after{
+    content: "\002B";
+}
+
+details[open] summary {
+    border-bottom: 1px solid #aaa;
+    margin-bottom: .5em;
+}
+
+details[open] summary:after{
+    content: "\00D7";
+}
+
+details[open] div{
+    padding: .5em 1em;
+}
+
+.aligncenter{
+    text-align: center;
+}
+
+table, td, th {
+    text-align: center;
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+th, td{
+    padding:15px;
+    font-size: 1.2em;
+    font-weight: bold; /* changed */
+}
+
+.timetable, .timetable tr, .timetable th{
+    color: black;
+    background-color: #f7e1a0;
+    border: 3px solid;
+    border-collapse: collapse;
+}
+
+/*service page css*/
+
+#serviceheader {
+    position: relative;
+    width: 100%;
+    height: 400px;
+    background-image: url('images/serviceheader.png');
+    background-size: cover;
+    background-position: center;
+    color: #000000;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+#serviceheader h1 {
+    position:absolute;
+    right: 20%; 
+    opacity: 0.7; 
+    font-size: 6em;
+    color: rgb(0, 0, 0, 0.7);
+    font-family: "Bebas Neue", sans-serif;
+    font-weight: 400;
+}
+
+.desc-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 40px; 
+}
+
+.desc {
+    flex: 1 1 25%; 
+    max-width: 45%;
+    background-color: white;
+    border-bottom: 3px solid rgba(211, 211, 211, 0.777);
+    border-right: 3px solid rgba(211, 211, 211, 0.777);
+    padding: 40px;
+    margin: 10px;
+    box-sizing: border-box;
+    text-align: center; 
+}
+
+.button2 {
+    background-color: rgb(255, 219, 152);
+    border: none;
+    color: black;
+    padding:10px 10px;
+    text-align: center;
+    display: inline-block;
+    font-size: 16px;
+    cursor: pointer;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.button2:hover {
+    background-color: rgb(255, 197, 90); 
+}
+
+.button2 a{
+    text-decoration: none;
+    color:black;
+}
+
+/*pricing css*/
+
+#pricingheader {
+    position: relative;
+    width: 100%;
+    height: 400px;
+    background-image: url('images/rates.jpg');
+    background-size: cover;
+    background-position: center;
+    color: #000000;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+#pricingheader h1 {
+    position:absolute;
+    right: 25%; 
+    opacity: 0.7; 
+    font-size: 6em;
+    color: rgb(0, 0, 0, 0.7);
+    font-family: "Bebas Neue", sans-serif;
+    font-weight: 400;
+}
+
+table{
+    width: 100%;
+    border-collapse: collapse;
+    border: none;
+}
+
+table th, table td {
+    padding: 30px 35px;
+    text-align: left;
+    border:none;
+    
+}
+
+table th {
+    background-color: #654321;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.pricing-table {
+    padding: 20px;
+    width:90%;
+    border-collapse: collapse;
+    border: none;
+}
+
+.pricing-table h2 {
+    text-align: left;
+    color: #b22222;
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+tr:nth-child(even){
+    background-color: #c9a66b;
+}
+
+tr:nth-child(odd){
+    background-color: #f7e1a0;
+}
+
+.ratestext{
+    font-size:35px;
+    font-weight: bold;
+    margin:10px 0;
+}
+
+thead{
+    color:white;
+}
+
+.pricing-table thead th:nth-child(1),
+.pricing-table tbody td:nth-child(1) {
+    width: 40%; 
+}
+
+.pricing-table thead th:nth-child(2),
+.pricing-table tbody td:nth-child(2) {
+    width: 60%; 
+}
+
+/*login css*/
+
+#loginheader {
+    background-image: url('images/logo-removebg.png');
+    height:100px;
+    width:100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    margin-top:30px;
+    margin-left: 18px;
+}
+
+form{
+    background-color: white;
+    border-radius: 15px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+    padding: 10px 20px;
+    width: 500px;
+    border-radius: 15px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+    padding: 10px 20px;
+    margin: auto;
+}
+
+label {
+    display: block;
+    width: 100%;
+    margin-top: 10px;
+    margin-bottom: 5px;
+    text-align: left;
+    color: #555;
+    font-weight: bold;
+}
+
+input {
+    display: block;
+    width: 100%;
+    margin-bottom: 15px;
+    padding: 10px;
+    box-sizing: border-box;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+.submit {
+    background-color: rgb(255, 219, 152);
+    border: none;
+    color: black;
+    padding:12px 12px;
+    text-align: center;
+    font-size: 17px;
+    cursor: pointer;
+    border-radius: 5px;
+    width:100%;
+    margin-top:10px;
+}
+
+.submit a{
+    text-decoration: none;
+    color:black;
+}
+
+.submit:hover {
+    background-color: rgb(255, 197, 90); 
+}
+
